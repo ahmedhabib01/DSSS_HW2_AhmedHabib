@@ -10,7 +10,7 @@ def Function_B():
 
 def Function_C(num1, num2, operation):
     #Problem is defined as F-string
-    Problem = f"{num1} {o} {num2}"
+    Problem = f"{num1} {operation} {num2}"
 
     if operation == '+':
         result = num1 + num2
